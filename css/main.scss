@@ -1,11 +1,34 @@
-h1 {
-    font-family: 'Montserrat';
-    text-align: center;
+body {
+    font-family:'Prompt', sans-serif;
 }
 
-.intro {
-    color:red;
-    h1{
-        color:white;
-    }
+#name{
+    font-size: 60pt;
+    color: #cee8da;
+}
+#tagline{
+    font-size:18pt;
+    color: white;
+}
+
+#summary{
+    font-size:14pt;
+    color: white;
+}
+.parallax-image{
+    position:fixed;
+    bottom:20px;
+}
+.landing{
+    background-image: url("../static/images/space2.jpg");
+    background-size: auto 100%;
+     &__text-elements{
+        // background-color: red;
+        max-width:35vw;
+        top:10px;
+     }
+}
+
+.section{
+    padding: 3%;
 }
