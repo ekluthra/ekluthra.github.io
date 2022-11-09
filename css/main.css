@@ -23,7 +23,7 @@ body {
 }
 
 .landing {
-  background-image: url("../static/images/space2.jpg");
+  background-image: url("https://ekluthra.github.io/static/images/space.jpg");
   background-size: auto 100%;
 }
 .landing__text-elements {
